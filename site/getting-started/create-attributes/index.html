@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Create Attributes - My Docs</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">My Docs</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../overview/" class="nav-link">Overview</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Api <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../api/attributes/" class="dropdown-item">Attributes</a>
+</li>
+                                    
+<li>
+    <a href="../../api/categories/" class="dropdown-item">Categories</a>
+</li>
+                                    
+<li>
+    <a href="../../api/companies/" class="dropdown-item">Companies</a>
+</li>
+                                    
+<li>
+    <a href="../../api/entities/" class="dropdown-item">Entities</a>
+</li>
+                                    
+<li>
+    <a href="../../api/general/" class="dropdown-item">General</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Getting started <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Create Attributes</a>
+</li>
+                                    
+<li>
+    <a href="../create-categories/" class="dropdown-item">Create Categories</a>
+</li>
+                                    
+<li>
+    <a href="../installation/" class="dropdown-item">Installation</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Misc <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../misc/changelog/" class="dropdown-item">Changelog</a>
+</li>
+                                    
+<li>
+    <a href="../../misc/icons/" class="dropdown-item">Icons</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../../api/general/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../create-categories/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#create-attributes" class="nav-link">Create Attributes</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#what-is-an-attribute" class="nav-link">What is an Attribute?</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#creating-an-attribute" class="nav-link">Creating an Attribute</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="create-attributes">Create Attributes</h1>
+<ul>
+<li>
+<h6 id="table-of-contents">Table of Contents</h6>
+</li>
+<li><a href="#what-is-an-attribute">What is an Attribute?</a></li>
+<li><a href="#creating-an-attribute">Creating an Attribute</a></li>
+</ul>
+<p><a name="what-is-an-attribute"></a></p>
+<h2 id="what-is-an-attribute">What is an Attribute?</h2>
+<p>Attributes are the building blocks of Docuty. The attributes describes what you can document and helps the end user understand how to use the program. Docuty is build to be fully modular and if you feel like there are attributes that you want and is not included by default, you can just create a new one of your liking.</p>
+<p><a name="creating-an-attribute"></a></p>
+<h2 id="creating-an-attribute">Creating an Attribute</h2>
+<p>Creating an attribute is an easy thing to do and most is self explanatory, but in case you need some pointer you can continue reading.
+<br/><br/>
+Start by clicking on "Settings" and then "Attributes" in Docuty. You should see a table of all available attributes and remember to always look through it before creating a new one to make sure that there isn't an existing attribute you can use for your case. When certain that you need to create a new on, click "New".
+<br/><br/>
+A pop-up will appear with a couple of fields explained here below.
+- Name - This is what Docuty uses as an identifier in the background. This need to be unique for all attributes and needs to be in lower case. Alphanumeric characters, underlines (_) and dashes (-) are the only characters permitted.</p>
+<ul>
+<li>
+<p>Label - This is what you will see in Docuty. This is how the end users identifies the attribute.</p>
+</li>
+<li>
+<p>Description (Optional) - Here you can write a short description about the attribute that will help others understand what it's for.</p>
+</li>
+<li>
+<p>Visible in lists - Defines if the attribute should have a column in the table listing on each categories first page.</p>
+</li>
+<li>
+<p>Visible in detailed view - Defines if the attribute should be shown on a specific items page.</p>
+</li>
+<li>
+<p>Required - If the attribute is required to be filled on each item. If you change an attribute after an item is created, the field will be required on next update.</p>
+</li>
+<li>
+<p>Store encrypted - Define if you want the value of the attribute to be encrypted. This is convenient when storing sensitive data like passwords.</p>
+</li>
+<li>
+<p>Hide input - This can be used if you want the attribute to be hidden in both tables and on specific items view page. Instead a "Copy" button will be shown in tables (which will just copy the value) and "Show content" button on the view page. This is used when you know that the data might be sensitive and don't want anybody looking over your shoulder to see the value.</p>
+</li>
+<li>
+<p>Type - Here we specify what kind of attribute this is. This is one of the most important settings in the attribute. Each type has its specific input kind and its own table in the database.</p>
+<ul>
+<li>
+<p>Text (wysiwyg) - This is used for larger amount of text like word documents, code, or alike. The input for this will be a WYSIWYG (What You See Is What You Get) editor.</p>
+</li>
+<li>
+<p>Simple text - This is used for larger amount of text like where no format is needed. The input for this will be a plain text editor.</p>
+</li>
+<li>
+<p>String - This is the most common type. It's just a simple string with an normal input field. Used for things like name, password, username, telephone number, etc.</p>
+</li>
+<li>
+<p>Integer - Numbers, simply put. It's like string but the input field is constrained to just numbers.</p>
+</li>
+<li>
+<p>On/Off - Just a simple on/off or true/false attribute. The input field is a check box and can be used for values like alive/dead, enabled/disabled, virtual/physical, etc.</p>
+</li>
+<li>
+<p>Drop down - This is a multi options attribute where you specify the values that can be chosen. You can also specify if the user can select only one or multiple values.</p>
+</li>
+<li>
+<p>Image - This is used to upload an image to an entity.</p>
+</li>
+<li>
+<p>Date - A simple date picker. Can be used to for instance document an installation date, an end of warranty date, etc.</p>
+</li>
+<li>
+<p>Date range - Like the date field, but for a date range. Can be used to for instance document both a start and an end date for a support contract, or alike.</p>
+</li>
+</ul>
+</li>
+</ul></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
