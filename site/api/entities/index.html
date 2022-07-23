@@ -302,13 +302,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#table-of-contents" class="md-nav__link">
-    Table of Contents
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#retrieve-all-entities" class="md-nav__link">
     Retrieve all Entities
   </a>
@@ -537,13 +530,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#table-of-contents" class="md-nav__link">
-    Table of Contents
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#retrieve-all-entities" class="md-nav__link">
     Retrieve all Entities
   </a>
@@ -593,18 +579,7 @@
 
 
 <h1 id="entities">Entities</h1>
-<ul>
-<li>
-<h6 id="table-of-contents">Table of Contents</h6>
-</li>
-<li><a href="#retrieve-all-entities">Retrieve all Entities</a></li>
-<li><a href="#retrieve-an-entity">Retrieve an Entity</a></li>
-<li><a href="#create-an-entity">Create an Entity/Entities</a></li>
-<li><a href="#update-an-entity">Update an Entity/Entities</a></li>
-<li><a href="#delete-an-entity">Delete an Entity</a></li>
-</ul>
 <p>Category entities can be reach through the URL <code>https://your-site-url/api/category-entities</code>.</p>
-<p><a name="retrieve-all-entities"></a></p>
 <h2 id="retrieve-all-entities">Retrieve all Entities</h2>
 <p>URL: <code>https://your-site-url/api/category-entities</code><br />
 Method: <code>GET</code><br />
@@ -643,7 +618,6 @@ Response data:</p>
     ]
 }
 </code></pre>
-<p><a name="retrieve-an-entity"></a></p>
 <h2 id="retrieve-an-entity">Retrieve an Entity</h2>
 <p>URL: <code>https://your-site-url/api/category-entities/{entityid}</code><br />
 Method: <code>GET</code><br />
@@ -680,7 +654,6 @@ Response data:</p>
     }
 }
 </code></pre>
-<p><a name="create-an-entity"></a></p>
 <h2 id="create-an-entityentities">Create an Entity/Entities</h2>
 <p>URL: <code>https://your-site-url/api/category-entities</code><br />
 Method: <code>POST</code><br />
@@ -709,7 +682,6 @@ If one creation fails, all will fail so if you get an error you need make the fu
 Text field attributes only accept a string and no HTML. The value will go though an htmlspecialchars_decode.</p>
 </blockquote>
 <p>Response body: see "Retrieve an Entity"</p>
-<p><a name="update-an-entity"></a></p>
 <h2 id="update-or-create-an-entityentities">Update or create an Entity/Entities</h2>
 <p>URL: <code>https://you-site-url/api/category-entities/{entityid}</code><br />
 Method: <code>PUT</code><br />
@@ -740,7 +712,6 @@ If one creation fails, all will fail so if you get an error you need make the fu
 Text field attributes only accept a string and no HTML. The value will go though an htmlspecialchars_decode.</p>
 </blockquote>
 <p>Response data: see "Retrieve an Entity"</p>
-<p><a name="delete-an-entity"></a></p>
 <h2 id="delete-an-entity">Delete an Entity</h2>
 <p>Not yet implemented.</p>
 

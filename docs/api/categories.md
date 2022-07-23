@@ -1,15 +1,7 @@
 # Categories
 
-- ###### Table of Contents
-- [Retrieve all Categories](#retrieve-all-categories)
-- [Retrieve a Category](#retrieve-a-category)
-- [Create a Category](#create-a-category)
-- [Update a Category](#update-a-category)
-- [Delete a Category](#delete-a-category)
-
 Categories can be reach through the URL `https://your-site-url/api/categories`.
 
-<a name="retrieve-all-categories"></a>
 ## Retrieve all Categories
 
 URL: `https://your-site-url/api/categories`  
@@ -47,7 +39,6 @@ Response data:
 }
 ```
 
-<a name="retrieve-a-category"></a>
 ## Retrieve a Category
 
 URL: `https://your-site-url/api/categories/{categoryid}`  
@@ -82,7 +73,6 @@ Response data:
 }
 ```
 
-<a name="create-a-category"></a>
 ## Create a Category
 
 URL: `https://your-site-url/api/categories`  
@@ -106,7 +96,6 @@ Request body:
 
 Response body: see "Retrieve a Category"
 
-<a name="update-a-category"></a>
 ## Update a Category
 
 URL: `https://your-site-url/api/categories/{categoryid}`  
@@ -130,7 +119,6 @@ Request body:
 
 Response data: see "Retrieve a Category"
 
-<a name="delete-a-category"></a>
 ## Delete a Category
 
 Not yet implemented.

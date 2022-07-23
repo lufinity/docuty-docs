@@ -1,15 +1,7 @@
 # Companies
 
-- ###### Table of Contents
-- [Retrieve all Companies](#retrieve-all-companies)
-- [Retrieve an Item](#retrieve-an-item)
-- [Create a Company](#create-a-company)
-- [Update a Company](#update-a-company)
-- [Delete a Company](#delete-a-company)
-
 Companies is one of the most straight forward models to work with. They can be reach through the URL `https://your-site-url/api/companies`.
 
-<a name="retrieve-all-companies"></a>
 ## Retrieve all Companies
 
 URL: `https://your-site-url/api/companies`  
@@ -38,7 +30,6 @@ Response data:
 }
 ```
 
-<a name="retrieve-an-item"></a>
 ## Retrieve an Item
 
 URL: `https://your-site-url/api/companies/{companyid}`  
@@ -64,7 +55,6 @@ Response data:
 }
 ```
 
-<a name="create-a-company"></a>
 ## Create a Company
 
 URL: `https://your-site-url/api/companies`  
@@ -86,7 +76,6 @@ Request body:
 
 Response body: see "Retrieve all Companies"
 
-<a name="update-a-company"></a>
 ## Update a Company
 
 URL: `https://your-site-url/api/companies/{companyid}`  
@@ -108,7 +97,6 @@ Request body:
 
 Response data: see "Retrieve all Companies"
 
-<a name="delete-a-company"></a>
 ## Delete a Company
 
 Not yet implemented.

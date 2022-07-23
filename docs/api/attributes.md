@@ -1,15 +1,7 @@
 # Attributes
 
-- ###### Table of Contents
-- [Retrieve all Attributes](#retrieve-all-attributes)
-- [Retrieve an Attribute](#retrieve-an-Attribute)
-- [Create an Attribute](#create-an-attribute)
-- [Update an Attribute](#update-an-attribute)
-- [Delete an Attribute](#delete-an-attribute)
-
 Attributes can be reach through the URL `https://your-site-url/api/attributes`.
 
-<a name="retrieve-all-attributes"></a>
 ## Retrieve all Attributes
 
 URL: `https://your-site-url/api/attributes`  
@@ -49,7 +41,6 @@ Response data:
 }
 ```
 
-<a name="retrieve-an-Attribute"></a>
 ## Retrieve an Attribute
 
 URL: `https://your-site-url/api/attributes/{attributeid}`  
@@ -73,7 +64,6 @@ Response data:
 }
 ```
 
-<a name="create-an-attribute"></a>
 ## Create an Attribute
 
 URL: `https://your-site-url/api/attributes`  
@@ -96,7 +86,6 @@ Request body:
 
 Response body: see "Retrieve an Attribute"
 
-<a name="update-an-attribute"></a>
 ## Update an Attribute
 
 URL: `https://your-site-url/api/attributes/{attributeid}`  
@@ -119,7 +108,6 @@ Request body:
 
 Response data: see "Retrieve an Attribute"
 
-<a name="delete-an-attribute"></a>
 ## Delete an Attribute
 
 Not yet implemented.
