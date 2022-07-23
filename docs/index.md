@@ -1,16 +1,15 @@
-- ## Getting Started
-    - [Overview](/{{version}}/overview)
-    - [Installation](/{{version}}/getting-started/installation)
-    - [Create Attributes](/{{version}}/getting-started/create-attributes)
-    - [Create Categories](/{{version}}/getting-started/create-categories)
+# Overview
 
-- ## API
-    - [General](/{{version}}/api/general)
-    - [Companies](/{{version}}/api/companies)
-    - [Categories](/{{version}}/api/categories)
-    - [Attributes](/{{version}}/api/attributes)
-    - [Entities](/{{version}}/api/entities)
-
-- ## Misc
-    - [Icons](/{{version}}/misc/icons)
-    - [Changelog](/{{version}}/misc/changelog)
+Docuty is a web based platform for documenting an IT environment, or actually anything else for that matter.<br/>
+It's build with customization in mind which make it easy to keep track of what you think is most important in your enviroment.
+<br/><br/>
+Feel free to browse the doumentation, interact with our developers, contact our support team or visit our home page to learn more.
+<br/><br/>
+#### Source code, bug tracking and requests
+http://gitlab.lufinity.se
+<br/><br/>
+#### Support ticketing system
+http://support.lufinity.se
+<br/><br/>
+#### Docuty home page
+http://www.docuty.se
