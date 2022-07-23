@@ -1,9 +1,7 @@
 # Categories
-
 Categories can be reach through the URL `https://your-site-url/api/categories`.
 
 ## Retrieve all Categories
-
 URL: `https://your-site-url/api/categories`  
 Method: `GET`  
 Response data:
@@ -40,7 +38,6 @@ Response data:
 ```
 
 ## Retrieve a Category
-
 URL: `https://your-site-url/api/categories/{categoryid}`  
 Method: `GET`  
 Response data:
@@ -74,7 +71,6 @@ Response data:
 ```
 
 ## Create a Category
-
 URL: `https://your-site-url/api/categories`  
 Method: `POST`  
 Request body:
@@ -97,7 +93,6 @@ Request body:
 Response body: see "Retrieve a Category"
 
 ## Update a Category
-
 URL: `https://your-site-url/api/categories/{categoryid}`  
 Method: `PUT`  
 Request body:
@@ -120,5 +115,4 @@ Request body:
 Response data: see "Retrieve a Category"
 
 ## Delete a Category
-
 Not yet implemented.

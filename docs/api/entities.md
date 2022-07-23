@@ -1,9 +1,7 @@
 # Entities
-
 Category entities can be reach through the URL `https://your-site-url/api/category-entities`.
 
 ## Retrieve all Entities
-
 URL: `https://your-site-url/api/category-entities`  
 Method: `GET`  
 Response data:
@@ -44,7 +42,6 @@ Response data:
 ```
 
 ## Retrieve an Entity
-
 URL: `https://your-site-url/api/category-entities/{entityid}`  
 Method: `GET`  
 Response data:
@@ -83,7 +80,6 @@ Response data:
 ```
 
 ## Create an Entity/Entities
-
 URL: `https://your-site-url/api/category-entities`  
 Method: `POST`  
 Request body:
@@ -114,7 +110,6 @@ Text field attributes only accept a string and no HTML. The value will go though
 Response body: see "Retrieve an Entity"
 
 ## Update or create an Entity/Entities
-
 URL: `https://you-site-url/api/category-entities/{entityid}`  
 Method: `PUT`  
 Request body:
@@ -148,5 +143,4 @@ Text field attributes only accept a string and no HTML. The value will go though
 Response data: see "Retrieve an Entity"
 
 ## Delete an Entity
-
 Not yet implemented.

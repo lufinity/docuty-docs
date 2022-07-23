@@ -1,9 +1,7 @@
 # Attributes
-
 Attributes can be reach through the URL `https://your-site-url/api/attributes`.
 
 ## Retrieve all Attributes
-
 URL: `https://your-site-url/api/attributes`  
 Method: `GET`  
 Response data:
@@ -42,7 +40,6 @@ Response data:
 ```
 
 ## Retrieve an Attribute
-
 URL: `https://your-site-url/api/attributes/{attributeid}`  
 Method: `GET`  
 Response data:
@@ -65,7 +62,6 @@ Response data:
 ```
 
 ## Create an Attribute
-
 URL: `https://your-site-url/api/attributes`  
 Method: `POST`  
 Request body:
@@ -87,7 +83,6 @@ Request body:
 Response body: see "Retrieve an Attribute"
 
 ## Update an Attribute
-
 URL: `https://your-site-url/api/attributes/{attributeid}`  
 Method: `PUT`  
 Request body:
@@ -109,5 +104,4 @@ Request body:
 Response data: see "Retrieve an Attribute"
 
 ## Delete an Attribute
-
 Not yet implemented.

@@ -6,7 +6,6 @@ Categories can be anything you like it to be. It is what you want documented in 
 You can for example create a category named "Servers" and document all your customers servers to help you or your colleagues out when working with their environment. Or maybe you want to keep track of all your best friends so you create a category named "Pet Animals" and then create some sub categories like "Dogs", "Cats", or "Turtles". The choice is yours!
 
 ## Creating a Category
-
 Before creating a category, you need to figure out what kind of attributes you will be needing and make sure they exist in the attribute table. To learn more about attributes, go to Attributes.
 
 When you're sure that all attributes you need exist click on "Settings" and then "Categories" which will lead you to the Category table. Here you can see all existing categories as well as create a new. To do so, click on "New".

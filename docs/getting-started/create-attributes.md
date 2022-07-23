@@ -1,11 +1,9 @@
 # Create Attributes
 
 ## What is an Attribute?
-
 Attributes are the building blocks of Docuty. The attributes describes what you can document and helps the end user understand how to use the program. Docuty is build to be fully modular and if you feel like there are attributes that you want and is not included by default, you can just create a new one of your liking.
 
 ## Creating an Attribute
-
 Creating an attribute is an easy thing to do and most is self explanatory, but in case you need some pointer you can continue reading.
 
 Start by clicking on "Settings" and then "Attributes" in Docuty. You should see a table of all available attributes and remember to always look through it before creating a new one to make sure that there isn't an existing attribute you can use for your case. When certain that you need to create a new on, click "New".

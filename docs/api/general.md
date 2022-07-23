@@ -1,5 +1,4 @@
 # General
-
 To date the only possible API functions is to view, create, edit and delete companies, attributes, categories and entities. More functions will be added in future releases. All requests must include an access token in the header which is received by Code Null like so:  
 ```php
 Headers: Authorization = Bearer [Access token]

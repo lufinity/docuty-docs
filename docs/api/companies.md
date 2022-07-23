@@ -1,9 +1,7 @@
 # Companies
-
 Companies is one of the most straight forward models to work with. They can be reach through the URL `https://your-site-url/api/companies`.
 
 ## Retrieve all Companies
-
 URL: `https://your-site-url/api/companies`  
 Method: `GET`  
 Response data:
@@ -31,7 +29,6 @@ Response data:
 ```
 
 ## Retrieve an Item
-
 URL: `https://your-site-url/api/companies/{companyid}`  
 Method: `GET`  
 Response data:
@@ -56,7 +53,6 @@ Response data:
 ```
 
 ## Create a Company
-
 URL: `https://your-site-url/api/companies`  
 Method: `POST`  
 Request body:
@@ -77,7 +73,6 @@ Request body:
 Response body: see "Retrieve all Companies"
 
 ## Update a Company
-
 URL: `https://your-site-url/api/companies/{companyid}`  
 Method: `PUT`  
 Request body:
@@ -98,5 +93,4 @@ Request body:
 Response data: see "Retrieve all Companies"
 
 ## Delete a Company
-
 Not yet implemented.
