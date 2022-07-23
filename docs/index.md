@@ -4,10 +4,10 @@ Docuty is a web based platform for documenting an IT environment, or actually an
 Feel free to browse the doumentation, interact with our developers, contact our support team or visit our home page to learn more.
 
 #### Source code, bug tracking and requests
-http://gitlab.lufinity.se
+<https://gitlab.lufinity.se>
 
 #### Support ticketing system
-http://support.lufinity.se
+<https://support.lufinity.se>
 
 #### Docuty home page
-http://www.docuty.se
+<https://www.docuty.se>
